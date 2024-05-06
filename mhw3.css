@@ -1,0 +1,730 @@
+body{
+    margin: 0;
+    background-color: #FFFFFF;
+    width:100%;
+}
+
+#header{
+    display:flex;
+    justify-content: space-around ;
+    width:100%;
+    height: 72.9;
+    font-size: 16px;
+    font-style:BlinkMacSystemFont;
+    align-items: center;
+    margin: 25px 0px;
+}
+
+.b1{
+    display:flex;
+    width:379.99px;
+    height:72.9px;
+    justify-content: end;
+}
+
+
+.b2{
+    width:379.99px;
+    height:72.9px;
+}
+
+.b3{
+    width:379.99px;
+    height:72.9px;
+}
+
+
+p.sottotitoli{
+    color:#777777;
+    font-size:13px;
+    font-style: alike, sans-serif;
+    margin: 0px 0px 14.4px;
+    text-align: end;
+}
+
+a.s{
+    text-decoration: none;
+    color:#E60707;
+}
+
+#navigazione{
+    display:flex;
+    background-color: #E7E7E7;
+    width:100%;
+    height:60px;
+    justify-content: center;
+    
+}
+
+.button, .buttonmini, .buttonS{
+    padding:20px;
+    font-size: 14px;
+    font-family: Alike, sans-serif;
+    margin: 0px 2.5px 0px 0px;
+}
+
+a.buttonTenda{
+    padding: 20px;
+    font-size: 14px;
+    font-family: Alike, sans-serif;
+    margin: 0px 2.5px 0px 0px;
+    width: 100%;
+}
+
+.buttonmini{
+    font-size: 15px;
+    font-family: Alike, sans-serif;
+    padding: 5px;
+    margin: 2px;
+}
+
+a.button, a.buttonmini, a.buttonS, a.buttonTenda{
+    text-decoration: none;
+    color:#444444;
+}
+
+a.button:hover, a.buttonmini:hover, a.buttonS:hover, a.buttonTenda:hover{
+ background-color: #E60707;
+ color: #FFFFFF;
+}
+
+a.button2{
+    text-decoration: none;
+    color:white;
+    border: 2px solid white;
+    padding: 15px;
+    font-size: 100%;
+    font-family: Alike, sans-serif;
+}
+
+a.button2:hover{
+    background-color: white ;
+    color:#E60707;
+}
+
+#sottoS{
+    display: none;
+}
+
+#sottoS.buttonmini{
+    display: flex;
+    flex-direction: column;
+    background-color: #E7E7E7;
+    width: 65px;
+    height: 120px;
+}
+
+#menu, .boh{
+    display: none;
+}
+  
+#menu div {
+    width: 25px;
+    height: 3px;
+    background-color: gray;
+    margin: 5px 0px;
+}
+
+#menu_tenda{
+    display:flex;
+    flex-direction: column;
+}
+
+#menu_tenda.hidden{
+    display:none;
+}
+
+#blocco_foto{
+    display: flex;
+    background-image: url(im7.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width:100%;
+    height: 500px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#blocco_foto2{
+    display:flex;
+    background-color: #00000099;
+    width:70%;
+    height: 45%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#infofoto1{
+color:#FFFFFF;
+font-size: 400%;
+text-align: center;
+font-family: Alike, sans-serif;
+margin: 0px 0px 7px;
+}
+
+#infofoto2{
+color:white;
+font-size: 200%;
+text-align: center;
+font-family: Alike, sans-serif;
+margin: 0px 0px 30px;
+}
+
+.tasti2{
+    width:156.44px;
+    height: 15.5px;
+    text-align: center;
+    justify-content: center;
+    color:white;
+    padding: 20px ;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid white;
+    font-size: 14px;
+    font-family: Alike,sans-serif;
+}
+
+#palline{
+    position: relative;
+    top:100px;
+}
+
+.point1, .point2, .point3{
+    width:15px;
+    height: 15px;
+}
+
+#blocco_centrale{
+    display:flex;
+    font-family: BlinkMacSystemFont;
+    justify-content:center;
+    width:100%;
+}
+
+.sinistra{
+    padding:10px;
+    width:50%;
+    height:auto;
+}
+
+.destra{
+    background-image: url('im10.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:10px;
+    /*width:100%;
+    height:50%;*/
+    width: 50%;
+    height: auto;
+    z-index: 10;
+}
+
+.sh1{
+    color: #E60707;
+    width: 100%;
+    height:10%;
+    font-size: 3.5em;
+    font-family: alike;
+    text-align: center;
+}
+
+.sh2{
+width: 100%;
+height: 5%;
+color: #6F6F6F;
+font-family: alike;
+text-align: center;
+}
+
+
+p.testo{
+width: 100%;
+color: #969696;
+font-family: alike;
+text-align: center;
+margin: 0px 0px 14.4px;
+}
+
+.testoDettagli{
+    color:#E60707;
+    text-align: center;
+    font-family: alike;
+}
+
+#testonascosto.hidden{
+    display: none;
+}
+
+#tasti{
+    display:flex;
+    justify-content: center;
+}
+
+a.tasto{
+    color:white;
+    background-color: #E60707;
+    font-size: 13px;
+    font-style: Alike,sans-serif;
+    padding: 15px 30px;
+    border-right: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+#blocco_centro{
+    display:flex;
+    font-family: BlinkMacSystemFont;
+    height: 250.4px;
+    background-color: #E7E7E7;
+    padding: 30px;
+    justify-content:center;
+}
+
+.sx{
+    display: flex;
+    width:570px;
+    height: 190.4px;
+    color:#333333;
+    font-family: BlinkMAcSystemFont;
+    font-size:16px;
+    padding:10px;
+    flex-direction: column;
+}
+
+.sx h3, .dx h3{
+    height:28px;
+    width: 100%;
+    font-size:28px;
+    color: #797979;
+    font-family:alike;
+    text-align: center;
+}
+
+p.testo2{
+    height: 45px;
+    width: 100%;
+    text-align:center;
+    color:#969696;
+    font-size:20px;
+    font-style: Alike, sans-serif;
+    margin: 0px 0px 20px;
+}
+
+p.tasti{
+width: 128px;
+height: 43px;
+color: white;
+background-color: #E60707;
+font-family: alike;
+text-align: center;
+margin: 0px 0px 14.4px;
+padding: 15px 30px;
+}
+
+#galleria{
+    display:flex;
+    justify-content: center;
+}
+
+
+#album img{
+    width:25%;
+    height:100%;
+    cursor:pointer;
+    object-fit: cover;
+}
+
+
+#album{
+    
+    align-items: center;
+    justify-content: center;
+}
+
+#gallery{
+    position: relative;
+}
+
+#modal-view{
+    position:fixed;
+    top:0;
+    left:0;
+    height:100vh;
+    width:100vw;
+
+    background-color: rgba(0,0,0,0.7);
+    z-index:2;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#modal-view img{
+    max-height: 90vh;
+    max-width: 90vw;
+}
+
+#modal-view.hidden{
+    display: none;
+}
+
+#blocco_contatti{
+    display:flex;
+    height:40%;
+    width:98%;
+    padding:10px;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.no-scroll{
+    overflow: hidden;
+}
+
+.music h1{
+    color:#E60707;
+    text-align: center;
+    font-size: 40px;
+    font-family: alike, sans-serif;
+    margin: 0px;
+}
+
+.contatti h3, .testo_gallery h3, .music h1{
+        color:#E60707;
+        text-align: center;
+        font-size: 50px;
+        font-family: alike, sans-serif;
+        margin: 0px;
+}
+
+.music p{
+    color:#696969;
+    text-align: center;
+    font-size: 16.5px;
+    font-family: alike, sans-serif;
+    margin: 0px;
+}
+
+    
+    .contatti h4, .testo_gallery h4{
+        color: #797979;
+        text-align: center;
+        font-size: 24px;
+        font-family: alike, sans-serif;
+        margin: 20px;
+    }
+    
+    p.testo3{
+        text-align:center;
+        color: #969696;
+        font-size: 15px;
+        font-family: alike, sans-serif;
+        margin: 0px 0px 20px;
+    }
+
+#info{
+    display:flex;
+    width: 98%;
+    height:151.9px;;
+    justify-content: center;
+    padding:10px;
+}
+
+.sin{
+    width: 373.33px;
+    height: 111.9px;
+    font-size: 16px;
+    padding: 10px;
+    font-family: BlinkMacSystemFont;
+}
+
+.cen{
+    width: 373.33px;
+    height: 111.9px;
+    font-size: 16px;
+    padding: 10px;
+    font-family: BlinkMacSystemFont;
+}
+
+.des{
+    width: 373.33;
+    height: 111.9px;
+    font-size: 16px;
+    padding: 10px;
+    font-family: BlinkMacSystemFont;
+}
+
+p.testoinfo{
+color:#696969;
+margin: 5px;
+font-size: 13px;
+font-family: Oxygen, sans-serif;
+}
+
+#social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.log{
+ margin: 0px 15px 0px 15px;
+}
+
+#fine{
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    width: 100%;
+    height:59.5px;
+    background-color: #E60707;
+}
+
+.testofine{
+text-align: center;
+color: white;
+font-size:13px;
+font-family: Oxygen, sans-serif;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+.desc_pos{
+    width:75%;
+    height:100%
+}
+
+#pos_testo{
+    height: 100%;
+    width: 25%;
+}
+
+#mapContainer{
+    width: 75%;
+    height: 100%;
+}
+
+#blocco_musica{
+    display:flex;
+    font-family: BlinkMacSystemFont;
+    justify-content:center;
+    width:100%;
+    margin: 10px 10px;
+
+}
+
+#blocco_posizione{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 350px;
+}
+
+.t_pos{
+    color:#E60707;
+    text-align:left;
+    font-size: 35px;
+    font-family: alike, sans-serif;
+    margin: 5px 1px 5px 10px;
+}
+
+p.testo4{
+    color: #969696;
+    font-size: 15px;
+    font-family: alike, sans-serif;
+    margin: 15px;
+}
+
+/*spotify*/
+#modulo-ricerca-mobile{
+    width: 100%;
+    padding: 0px 20px 0px 20px;
+}
+
+#search-blocco, #lente-mobile{
+    border-radius: 5px;
+    margin: 15px 0px;
+    align-items: center;
+    font-size:20px;
+    font-family: alike,sans-serif;
+    color: #E60707;
+    border-color: #E60707;
+}
+
+#blocco_musica{
+    background-color:#E7E7E7;
+    margin: 20px 0px 20px 0px;
+    width:100%;
+    height:auto;
+}
+
+#playlist-view {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+#playlist-view .playlist {
+    margin: 10px;
+    border: 10px solid #E60707;
+    border-radius: 8px;
+    padding: 5px;
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+    background-color: #E60707;
+    color: white;
+  }
+  
+  #playlist-view img {
+    max-width: 100%;;
+  }
+
+#playlist-view .playlist-description{
+    text-align:center;
+    font-size: 15px;
+    font-family: alike, sans-serif;
+    margin: 20px;
+}
+
+
+@media(max-width:1025px){
+    .destra{
+        display:none;
+    }
+
+    #blocco_centrale{
+        width:100%;
+    }
+
+    .sinistra{
+        width:100%;
+        height:50%;
+    }
+}
+
+@media(max-width: 970px){
+    #album img{
+        width: 50%;
+        height: 50%;
+    }
+}
+
+@media (max-width: 770px) {
+    #navigazione {
+      display: none;
+    }
+
+    #menu{
+      display: block;
+      margin: 5% 50%;
+    }
+
+    .boh{
+        display: block;
+    }
+
+    #header{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .b1{
+        justify-content: center;
+    }
+
+    .b3{
+        justify-content: center;
+        width: 190px;
+    }
+
+    p.sottotitoli{
+        text-align: center;
+    }
+
+    #blocco_centro{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+    }
+
+    p.testo2{
+        text-align: center;
+    }
+
+    #info{
+        flex-direction: column;
+    }
+
+    #gallery{
+        flex-direction: column;
+        height:50%;
+    }
+
+    #album{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height:50%;
+    }
+
+   #album img{
+    width:100%;
+    height:275px;
+   }
+
+    #contatti{
+        align-items: center;
+        justify-content: center;
+        padding: 0px 0px 0px 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    #info{
+        height:350px;
+        margin: 0px 0px;
+        padding:0px;
+    }
+
+    #blocco_posizione{
+        flex-direction: column;
+    }
+}
+
+@media(max-width:620px){
+    #infofoto1{
+        font-size: 250%;
+    }
+
+    #infofoto2{
+        font-size:200% ;
+    }
+}
+
+@media(max-width:590px){
+    .sx{
+        width:100%;
+        height:50%;
+    }
+}
+
+@media(max-width:431px){
+   #blocco_centro{
+    height:40%;
+   }
+}
+
